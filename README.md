@@ -1,36 +1,28 @@
-# Chapter-6---Citibike---NYC
+*6.4 - Task*
 
-## CitiBike Data Analysis Project
-#Overview
+**Overview**
+In this section, I explored the relationship between trip duration and start hour of the day, as well as analyzed the relationship between subscriber status and weekday usage. The analysis involved creating a linear regression model to predict trip duration based on start hour and performing a Chi-Square test to examine the relationship between weekday and subscriber status.
 
-This project analyzes CitiBike trip data from New York City to uncover insights into rider demographics, usage trends, and trip patterns. The analysis was performed as part of my data analytics certification course and showcases skills in Python, data cleaning, visualization, and advanced analytics.
+**Step-by-Step Breakdown**
 
-The final results are presented through an interactive Tableau Storyboard, highlighting key findings, geospatial insights, and advanced analyses.
+Data Preparation and Cleaning:
 
-#Data Sources
-[CitiBike Trip Data](https://citibikenyc.com/system-data): Citi Bike Sytem Data From September 2013 
-
-**Sourced from CitiBike Open Data.**
-This dataset includes trip start and end times, rider demographics, and trip durations.
-Citation: "Citi Bike Data, NYC Bike Share, Lyft Inc."
-
-**Project Workflow**
-The project involved the following key steps:
-
-**Data Sourcing & Cleaning:**
-
-Cleaned raw CitiBike data for consistency and accuracy.
-Addressed missing values, duplicate entries, and outliers.
-
+Imported necessary libraries (e.g., pandas, numpy, matplotlib, seaborn, scikit-learn).
+Cleaned the data by handling missing values and converting the start time to extract the start hour of the day.
 Exploratory Data Analysis (EDA):
 
-Used Python and libraries like Pandas, Matplotlib, and Seaborn to analyze the dataset.
-Created correlation heatmaps and temporal trends.
+Visualized the relationship between trip duration and start hour using a scatter plot to identify trends.
 
-**Advanced Analytics:**
-Performed regression and clustering analysis.
-Used Tableau for geospatial visualizations and dashboards.
+Linear Regression Model:
+Defined the independent variable (start_hour) and dependent variable (trip_duration).
+Split the data into training and test sets, then trained a linear regression model on the training data.
+Predicted trip duration based on start hour and visualized the results with a regression line.
 
-**Final Dashboard Creation:**
+Model Evaluation:
+Evaluated the model’s performance using Mean Squared Error (MSE) and R² score.
+The results showed a weak correlation between trip duration and start hour, as reflected by the low R² score and high MSE.
 
-Results summarized in an interactive Tableau Storyboard.
+Subscriber Status and Weekday Analysis:
+Performed a Chi-Square test to examine the relationship between weekday and subscriber status.
+Created a heatmap to visually display the distribution of subscribers vs non-subscribers across weekdays.
+Findings indicated a strong relationship between subscriber status and weekday, with weekday users being primarily subscribers.
