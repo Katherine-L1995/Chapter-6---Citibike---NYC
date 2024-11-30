@@ -1,36 +1,18 @@
-# Chapter-6---Citibike---NYC
+**Summary of Task 3.3: Geospatial Analysis with Folium and JSON**
 
-## CitiBike Data Analysis Project
-#Overview
+In this task, I conducted a geospatial analysis using the Folium library for map visualization and JSON data formats for location-based information. Here are the key steps I followed:
 
-This project analyzes CitiBike trip data from New York City to uncover insights into rider demographics, usage trends, and trip patterns. The analysis was performed as part of my data analytics certification course and showcases skills in Python, data cleaning, visualization, and advanced analytics.
+Library Installation: I installed the necessary libraries—Folium and JSON—using Anaconda (via the terminal for Mac users or the Anaconda prompt for Windows users). Alternatively, I used the pip command for installation in the command line or terminal, depending on the operating system.
 
-The final results are presented through an interactive Tableau Storyboard, highlighting key findings, geospatial insights, and advanced analyses.
+Creating the Jupyter Notebook: I created a new Jupyter notebook dedicated to performing the geospatial analysis for this task. The notebook was set up for importing and analyzing location-based data with the Latitidude and Longitute information from my project CSV to locate the exact location of each bike station across the city. 
 
-#Data Sources
-[CitiBike Trip Data](https://citibikenyc.com/system-data): Citi Bike Sytem Data From September 2013 
+Importing Libraries: I imported the required libraries, such as Folium, to visualize geospatial data on interactive maps. I also imported JSON to handle and manipulate location data in the correct format.
 
-**Sourced from CitiBike Open Data.**
-This dataset includes trip start and end times, rider demographics, and trip durations.
-Citation: "Citi Bike Data, NYC Bike Share, Lyft Inc."
+Finding a Suitable JSON/GeoJSON File: I sourced a GeoJSON or JSON file containing location data that aligned with my project which included a geopspacial layout of the new york city area specifically. 
 
-**Project Workflow**
-The project involved the following key steps:
+Wrangling and Cleaning the Data: I performed data wrangling on my dataset to ensure it met the needs of the analysis. 
 
-**Data Sourcing & Cleaning:**
+Creating a Choropleth Map: I created a Choropleth map using Folium to visualize a chosen variable. This map used color gradients to represent the data, allowing for a clear visual interpretation of trends and patterns across geographic locations.
 
-Cleaned raw CitiBike data for consistency and accuracy.
-Addressed missing values, duplicate entries, and outliers.
+The outcome of this task was a clean, visual, and interactive map, showcasing the geospatial distribution of the most visited Citibike stations across the New York City area which is more visually informatitive to the viewer. 
 
-Exploratory Data Analysis (EDA):
-
-Used Python and libraries like Pandas, Matplotlib, and Seaborn to analyze the dataset.
-Created correlation heatmaps and temporal trends.
-
-**Advanced Analytics:**
-Performed regression and clustering analysis.
-Used Tableau for geospatial visualizations and dashboards.
-
-**Final Dashboard Creation:**
-
-Results summarized in an interactive Tableau Storyboard.
