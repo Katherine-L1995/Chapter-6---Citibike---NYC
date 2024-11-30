@@ -1,36 +1,18 @@
-# Chapter-6---Citibike---NYC
+**6.2 - Outline**
 
-## CitiBike Data Analysis Project
-#Overview
+Set up a Jupyter notebook with visualization libraries includeding pandas, seborn, and matplotlib.pyplot, and import the cleaned data set for Citibike.
+**Citibike - Heat Map**
+Create a correlation matrix heatmap (colored). - Where the Map represents the relationship between the hour of the day and day of the week. 
 
-This project analyzes CitiBike trip data from New York City to uncover insights into rider demographics, usage trends, and trip patterns. The analysis was performed as part of my data analytics certification course and showcases skills in Python, data cleaning, visualization, and advanced analytics.
+**Scatter Plot: Trip Duartion (minutes) vs Time of Day**
 
-The final results are presented through an interactive Tableau Storyboard, highlighting key findings, geospatial insights, and advanced analyses.
+Created a scatterplot that compares the Trip Duration by Hour of Day and Start Hour.
+ This scatter plot reveals a slight trend between rider age and trip duration. Riders born in the 1990s show a moderate tendency for longer trip durations, suggesting a potential relationship between younger age groups and trip length. In contrast, older riders appear to take shorter trips on average. While the relationship isn’t very strong, it hints that younger riders may be more likely to take extended trips compared to older riders.
 
-#Data Sources
-[CitiBike Trip Data](https://citibikenyc.com/system-data): Citi Bike Sytem Data From September 2013 
+ Create a Box and Whiskey Chart - Examining trip duration by day of the week shows a stronger tendency for longer bike rides on weekends compared to weekdays. This suggests that CitiBikes are primarily used for recreational purposes on weekends, rather than for weekday commuting across NYC. For this project, it would be beneficial to focus on weekend usage patterns to understand how and where bikes are utilized for leisure activities.
 
-**Sourced from CitiBike Open Data.**
-This dataset includes trip start and end times, rider demographics, and trip durations.
-Citation: "Citi Bike Data, NYC Bike Share, Lyft Inc."
+ **Revisiting the Hypothesis Questions in 6.1:**
 
-**Project Workflow**
-The project involved the following key steps:
+Hypothesis to further explore: Station-Based Hypothesis: Trips starting or ending in recreational zones will have longer durations on weekends than those starting or ending in business or commuter-heavy areas.
 
-**Data Sourcing & Cleaning:**
-
-Cleaned raw CitiBike data for consistency and accuracy.
-Addressed missing values, duplicate entries, and outliers.
-
-Exploratory Data Analysis (EDA):
-
-Used Python and libraries like Pandas, Matplotlib, and Seaborn to analyze the dataset.
-Created correlation heatmaps and temporal trends.
-
-**Advanced Analytics:**
-Performed regression and clustering analysis.
-Used Tableau for geospatial visualizations and dashboards.
-
-**Final Dashboard Creation:**
-
-Results summarized in an interactive Tableau Storyboard.
+Station-Based Hypothesis: Trips starting or ending in recreational zones will have longer durations on weekends than those starting or ending in business or commuter-heavy areas.
