@@ -25,12 +25,10 @@ Addressed missing values, duplicate entries, and outliers.
 Exploratory Data Analysis (EDA):
 
 Used Python and libraries like Pandas, Matplotlib, and Seaborn to analyze the dataset.
-Created correlation heatmaps and temporal trends.
+Created correlation heatmaps and temporal trends to visualize Citibike User Demographic, Citibike Stations, and Citibike Usage around the New York City Metro Area. 
 
 **Advanced Analytics:**
 Performed regression and clustering analysis.
 Used Tableau for geospatial visualizations and dashboards.
 
-**Final Dashboard Creation:**
-
-Results summarized in an interactive Tableau Storyboard.
+[**Tableau Chapter 6 Dashboard**](https://public.tableau.com/shared/N7F7R4Z94?:display_count=n&:origin=viz_share_link)
